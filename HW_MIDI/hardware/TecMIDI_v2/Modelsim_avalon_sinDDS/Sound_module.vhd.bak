@@ -1,0 +1,100 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity SoundModule is
+	port(
+	--Entradas
+	reset, clk: in std_logic;
+	daclrc : in std_logic;
+	bclk  : in std_logic;
+	key : in unsigned (6 downto 0);
+	vel : in unsigned (6 downto 0);
+	enable : in std_logic;
+	--Salidas
+--	aud_xck : out std_logic;
+--	i2c_sdat : inout std_logic;
+--	i2c_sclk : out std_logic;
+	dacdat : out std_logic
+	
+	);
+end;
+
+
+architecture architectureSoundModule of SoundModule is 
+		signal mic_lin: std_logic := '0';
+		signal sample: signed (15 downto 0);
+		signal ready: std_logic;
+		
+		component au_out is
+		port(
+			reset, clk: in std_logic;
+			sample: in signed(15 downto 0);
+			daclrc: in std_logic;
+			bclk: in std_logic;
+			ready: out std_logic;
+			dac_dat: out std_logic
+		);
+		end component;
+
+
+		signal code_aux : unsigned (7 downto 0);
+		signal ready_aux : std_logic;
+		
+		component sin_DDS is
+		port(
+			
+			reset, clk: in std_logic;
+			nextsample, enable : in std_logic;
+			vel, key: in unsigned (6 downto 0);
+			sample : out signed (15 downto 0)
+
+		);
+		end component;
+
+
+--		component au_setup IS 
+--		port
+--		(	reset		   :  IN STD_LOGIC;
+--			clk_50 		:  IN STD_LOGIC;
+--			mic_lin		:  IN STD_LOGIC; -- si '1' MIC, si '0' LINEIN
+--			i2c_sclk	   :  OUT STD_LOGIC;
+--			i2c_sdat	   :  INOUT STD_LOGIC;
+--			aud_xck		:  OUT STD_LOGIC	
+--		);
+--		END component;
+		
+		begin
+			C1 : au_out
+			port map(
+				reset => reset, 
+				clk => clk,
+				sample => sample,
+				daclrc => daclrc,
+				bclk => bclk,
+				ready => ready,
+				dac_dat => dacdat
+			);
+
+			C2: sin_DDS
+			port map(
+				reset => reset,  
+				clk => clk, 
+				nextsample => ready, 
+				enable => enable, 
+				vel => vel, 
+				key => key, 
+				sample => sample
+			);
+
+--			C3: au_setup
+--			port map(
+--				reset => reset,  
+--				clk_50 => clk,  
+--				mic_lin => mic_lin,  
+--				i2c_sclk => i2c_sclk,
+--				i2c_sdat => i2c_sdat,  
+--				aud_xck => aud_xck  
+--			);
+
+end architectureSoundModule;

@@ -1,0 +1,371 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dF:/Installs/Altera
+Eau_out
+Z0 w1517748198
+Z1 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z4 dF:/Proyectos/DAvanzadoVHDL/codiseno/P_final/Lab2_TecMIDI_OK/hardware/TecMIDI_v2/Modelsim_avalon_sinDDS
+Z5 8F:/Proyectos/DAvanzadoVHDL/codiseno/P_final/Lab2_TecMIDI_OK/hardware/TecMIDI_v2/Modelsim_avalon_sinDDS/au_out.vhd
+Z6 FF:/Proyectos/DAvanzadoVHDL/codiseno/P_final/Lab2_TecMIDI_OK/hardware/TecMIDI_v2/Modelsim_avalon_sinDDS/au_out.vhd
+l0
+L5
+VMz0T3VdLc16N@23og5OFP0
+!s100 =P]KG=8z^naLZ5bdIzfPn2
+Z7 OV;C;10.4b;61
+32
+Z8 !s110 1519425389
+!i10b 1
+Z9 !s108 1519425389.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:/Proyectos/DAvanzadoVHDL/codiseno/P_final/Lab2_TecMIDI_OK/hardware/TecMIDI_v2/Modelsim_avalon_sinDDS/au_out.vhd|
+Z11 !s107 F:/Proyectos/DAvanzadoVHDL/codiseno/P_final/Lab2_TecMIDI_OK/hardware/TecMIDI_v2/Modelsim_avalon_sinDDS/au_out.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1
+Aarquitecturaupau_out
+R1
+R2
+R3
+DEx4 work 6 au_out 0 22 Mz0T3VdLc16N@23og5OFP0
+l31
+L16
+VWG7:RLGALUPo8l4[;TWPO3
+!s100 Y^YSSIhz6gHSL71^j6o>j2
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Eau_setup
+Z14 w1517309232
+R1
+R2
+R3
+R4
+Z15 8F:/Proyectos/DAvanzadoVHDL/codiseno/P_final/Lab2_TecMIDI_OK/hardware/TecMIDI_v2/Modelsim_avalon_sinDDS/au_setup.vhd
+Z16 FF:/Proyectos/DAvanzadoVHDL/codiseno/P_final/Lab2_TecMIDI_OK/hardware/TecMIDI_v2/Modelsim_avalon_sinDDS/au_setup.vhd
+l0
+L16
+VlAnnh>bnKI9ig;o=9jgAe2
+!s100 1BfMk`^dW@BXUiYlhPNfS2
+R7
+32
+R8
+!i10b 1
+R9
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:/Proyectos/DAvanzadoVHDL/codiseno/P_final/Lab2_TecMIDI_OK/hardware/TecMIDI_v2/Modelsim_avalon_sinDDS/au_setup.vhd|
+Z18 !s107 F:/Proyectos/DAvanzadoVHDL/codiseno/P_final/Lab2_TecMIDI_OK/hardware/TecMIDI_v2/Modelsim_avalon_sinDDS/au_setup.vhd|
+!i113 1
+R12
+R13
+Aa
+R1
+R2
+R3
+DEx4 work 8 au_setup 0 22 lAnnh>bnKI9ig;o=9jgAe2
+l59
+L26
+Vgb=h8c>IVg11e1XlGTNl83
+!s100 YPa9jji5C];6ni]XdF7Qf0
+R7
+32
+R8
+!i10b 1
+R9
+R17
+R18
+!i113 1
+R12
+R13
+Eavalon_rxdecmidi
+w1519026940
+R1
+Z19 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z20 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R2
+R3
+Z21 dF:/Proyectos/DAvanzadoVHDL/codiseno/P_final/Modelsim_avalon_sinDDS
+8F:/Proyectos/DAvanzadoVHDL/codiseno/P_final/Modelsim_avalon_sinDDS/avalon_Sonido_v1.vhd
+FF:/Proyectos/DAvanzadoVHDL/codiseno/P_final/Modelsim_avalon_sinDDS/avalon_Sonido_v1.vhd
+l0
+L71
+V[@Z37SZ^iaX6acBmE]o401
+!s100 ]P6gS1jg8nYeQ03NR=4c41
+R7
+32
+!s110 1519033370
+!i10b 1
+!s108 1519033370.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:/Proyectos/DAvanzadoVHDL/codiseno/P_final/Modelsim_avalon_sinDDS/avalon_Sonido_v1.vhd|
+!s107 F:/Proyectos/DAvanzadoVHDL/codiseno/P_final/Modelsim_avalon_sinDDS/avalon_Sonido_v1.vhd|
+!i113 1
+R12
+R13
+Eavalon_soundmidi
+Z22 w1519425387
+R1
+R19
+R20
+R2
+R3
+R4
+8F:\Proyectos\DAvanzadoVHDL\codiseno\P_final\Lab2_TecMIDI_OK\hardware\TecMIDI_v2\Modelsim_avalon_sinDDS\avalon_Sonido_v1.vhd
+FF:\Proyectos\DAvanzadoVHDL\codiseno\P_final\Lab2_TecMIDI_OK\hardware\TecMIDI_v2\Modelsim_avalon_sinDDS\avalon_Sonido_v1.vhd
+l0
+L47
+VFF1]iTo^Rf_P39z]B321_0
+!s100 Qndc^FXEDUz_:ZIfTB79@1
+R7
+32
+Z23 !s110 1519425390
+!i10b 1
+R9
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:\Proyectos\DAvanzadoVHDL\codiseno\P_final\Lab2_TecMIDI_OK\hardware\TecMIDI_v2\Modelsim_avalon_sinDDS\avalon_Sonido_v1.vhd|
+!s107 F:\Proyectos\DAvanzadoVHDL\codiseno\P_final\Lab2_TecMIDI_OK\hardware\TecMIDI_v2\Modelsim_avalon_sinDDS\avalon_Sonido_v1.vhd|
+!i113 1
+R12
+R13
+Abehave
+R1
+R19
+R20
+R2
+R3
+DEx4 work 16 avalon_soundmidi 0 22 WWCY9;:5MP8Sj9Hj6]czI2
+l155
+L96
+V;`n@e7Obd<`FcQa5nX]Y=2
+!s100 WV;ZPjaLBi;AERDBFhaDR3
+R7
+32
+!s110 1519235697
+!i10b 1
+!s108 1519235697.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:\Proyectos\DAvanzadoVHDL\codiseno\P_final\Modelsim_avalon_sinDDS\avalon_Sonido_v1.vhd|
+!s107 F:\Proyectos\DAvanzadoVHDL\codiseno\P_final\Modelsim_avalon_sinDDS\avalon_Sonido_v1.vhd|
+!i113 1
+R12
+R13
+R21
+FF:\Proyectos\DAvanzadoVHDL\codiseno\P_final\Modelsim_avalon_sinDDS\avalon_Sonido_v1.vhd
+8F:\Proyectos\DAvanzadoVHDL\codiseno\P_final\Modelsim_avalon_sinDDS\avalon_Sonido_v1.vhd
+Psin256rom_pkg
+R1
+R2
+R3
+Z24 w1517309230
+R4
+Z25 8F:/Proyectos/DAvanzadoVHDL/codiseno/P_final/Modelsim_avalon_sinDDS/sin256rom_pkg.vhd
+Z26 FF:/Proyectos/DAvanzadoVHDL/codiseno/P_final/Modelsim_avalon_sinDDS/sin256rom_pkg.vhd
+l0
+L5
+VED1oA=;a9g7mYT4eEQ1Mn0
+!s100 cP2gB]>YLQXi2eE=mfMQB3
+R7
+32
+b1
+Z27 !s110 1519423889
+!i10b 1
+Z28 !s108 1519423889.000000
+Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:/Proyectos/DAvanzadoVHDL/codiseno/P_final/Modelsim_avalon_sinDDS/sin256rom_pkg.vhd|
+Z30 !s107 F:/Proyectos/DAvanzadoVHDL/codiseno/P_final/Modelsim_avalon_sinDDS/sin256rom_pkg.vhd|
+!i113 1
+R12
+R13
+Bbody
+Z31 DPx4 work 13 sin256rom_pkg 0 22 ED1oA=;a9g7mYT4eEQ1Mn0
+R1
+R2
+R3
+l0
+L10
+Va9S<EnVFTH:eaUbXi38^k0
+!s100 FhGY8GQ2BBXMCO46dFbm81
+R7
+32
+R27
+!i10b 1
+R28
+R29
+R30
+!i113 1
+R12
+R13
+nbody
+Esin_dds
+Z32 w1517746322
+R31
+R1
+R2
+R3
+R4
+Z33 8F:/Proyectos/DAvanzadoVHDL/codiseno/P_final/Lab2_TecMIDI_OK/hardware/TecMIDI_v2/Modelsim_avalon_sinDDS/sin_DDS.vhd
+Z34 FF:/Proyectos/DAvanzadoVHDL/codiseno/P_final/Lab2_TecMIDI_OK/hardware/TecMIDI_v2/Modelsim_avalon_sinDDS/sin_DDS.vhd
+l0
+L8
+VTBI;UY2CdDAWCeb0z=81N1
+!s100 dR[o_Wo8K4:aD[TZjCOg70
+R7
+32
+R23
+!i10b 1
+Z35 !s108 1519425390.000000
+Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:/Proyectos/DAvanzadoVHDL/codiseno/P_final/Lab2_TecMIDI_OK/hardware/TecMIDI_v2/Modelsim_avalon_sinDDS/sin_DDS.vhd|
+Z37 !s107 F:/Proyectos/DAvanzadoVHDL/codiseno/P_final/Lab2_TecMIDI_OK/hardware/TecMIDI_v2/Modelsim_avalon_sinDDS/sin_DDS.vhd|
+!i113 1
+R12
+R13
+Aarquitecturasin_dds
+R31
+R1
+R2
+R3
+DEx4 work 7 sin_dds 0 22 TBI;UY2CdDAWCeb0z=81N1
+l32
+L19
+V3D_<8DWI94V@dMGffAf<?0
+!s100 cVHi9L>f2Zk6J3kzjTdGY3
+R7
+32
+R23
+!i10b 1
+R35
+R36
+R37
+!i113 1
+R12
+R13
+Esin_dds_tb
+Z38 w1517672260
+R1
+R2
+R3
+R4
+Z39 8F:/Proyectos/DAvanzadoVHDL/codiseno/P_final/Lab2_TecMIDI_OK/hardware/TecMIDI_v2/Modelsim_avalon_sinDDS/sin_DDS_tb.vhd
+Z40 FF:/Proyectos/DAvanzadoVHDL/codiseno/P_final/Lab2_TecMIDI_OK/hardware/TecMIDI_v2/Modelsim_avalon_sinDDS/sin_DDS_tb.vhd
+l0
+L5
+V82<L`h7WA5ci:LTTiTgmH2
+!s100 N9>le:1]gf8nHSe;J;^0g3
+R7
+32
+R23
+!i10b 1
+R35
+Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:/Proyectos/DAvanzadoVHDL/codiseno/P_final/Lab2_TecMIDI_OK/hardware/TecMIDI_v2/Modelsim_avalon_sinDDS/sin_DDS_tb.vhd|
+Z42 !s107 F:/Proyectos/DAvanzadoVHDL/codiseno/P_final/Lab2_TecMIDI_OK/hardware/TecMIDI_v2/Modelsim_avalon_sinDDS/sin_DDS_tb.vhd|
+!i113 1
+R12
+R13
+Asin_dds_tb_arch
+R1
+R2
+R3
+DEx4 work 10 sin_dds_tb 0 22 82<L`h7WA5ci:LTTiTgmH2
+l31
+L9
+Vdd?RNacXc:]Q^Yg:955Xi0
+!s100 UDAfc>Am8cg`?WX^j=h:b2
+R7
+32
+R23
+!i10b 1
+R35
+R41
+R42
+!i113 1
+R12
+R13
+Esoundmodule
+Z43 w1519424029
+R1
+R2
+R3
+R4
+Z44 8F:\Proyectos\DAvanzadoVHDL\codiseno\P_final\Lab2_TecMIDI_OK\hardware\TecMIDI_v2\Modelsim_avalon_sinDDS\Sound_module.vhd
+Z45 FF:\Proyectos\DAvanzadoVHDL\codiseno\P_final\Lab2_TecMIDI_OK\hardware\TecMIDI_v2\Modelsim_avalon_sinDDS\Sound_module.vhd
+l0
+L5
+VZUe>ffUZOWIBgzl<T[zi]3
+!s100 cc6`c=4J^JICW:WWdU6@L0
+R7
+32
+R23
+!i10b 1
+R35
+Z46 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:\Proyectos\DAvanzadoVHDL\codiseno\P_final\Lab2_TecMIDI_OK\hardware\TecMIDI_v2\Modelsim_avalon_sinDDS\Sound_module.vhd|
+Z47 !s107 F:\Proyectos\DAvanzadoVHDL\codiseno\P_final\Lab2_TecMIDI_OK\hardware\TecMIDI_v2\Modelsim_avalon_sinDDS\Sound_module.vhd|
+!i113 1
+R12
+R13
+Aarchitecturesoundmodule
+R1
+R2
+R3
+DEx4 work 11 soundmodule 0 22 ZUe>ffUZOWIBgzl<T[zi]3
+l61
+L29
+V29U=ohMUoh9`>aib5oV7a1
+!s100 XkCZ8d4J^24dShLI:gdF62
+R7
+32
+R23
+!i10b 1
+R35
+R46
+R47
+!i113 1
+R12
+R13
+Eucau_out
+Z48 w1517745368
+R2
+R3
+R4
+Z49 8F:/Proyectos/DAvanzadoVHDL/codiseno/P_final/Lab2_TecMIDI_OK/hardware/TecMIDI_v2/Modelsim_avalon_sinDDS/UCau_out.vhd
+Z50 FF:/Proyectos/DAvanzadoVHDL/codiseno/P_final/Lab2_TecMIDI_OK/hardware/TecMIDI_v2/Modelsim_avalon_sinDDS/UCau_out.vhd
+l0
+L4
+VB_7<B79[96__1OIZbSCW42
+!s100 2hDl^aGj92b[1moAJBMHB1
+R7
+32
+R23
+!i10b 1
+R35
+Z51 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:/Proyectos/DAvanzadoVHDL/codiseno/P_final/Lab2_TecMIDI_OK/hardware/TecMIDI_v2/Modelsim_avalon_sinDDS/UCau_out.vhd|
+Z52 !s107 F:/Proyectos/DAvanzadoVHDL/codiseno/P_final/Lab2_TecMIDI_OK/hardware/TecMIDI_v2/Modelsim_avalon_sinDDS/UCau_out.vhd|
+!i113 1
+R12
+R13
+Aarquitectura_au_out
+R2
+R3
+Z53 DEx4 work 8 ucau_out 0 22 B_7<B79[96__1OIZbSCW42
+l18
+L13
+Z54 V`b2H2[KT8ccdKJLMVoPH:3
+Z55 !s100 V9II@D;lNOKL5i[V=WUPX0
+R7
+32
+R23
+!i10b 1
+R35
+R51
+R52
+!i113 1
+R12
+R13

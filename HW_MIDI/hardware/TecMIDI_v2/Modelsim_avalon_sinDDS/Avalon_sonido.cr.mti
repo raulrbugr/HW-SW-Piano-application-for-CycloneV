@@ -1,0 +1,69 @@
+F:/Proyectos/DAvanzadoVHDL/codiseno/P_final/Lab2_TecMIDI_OK/hardware/TecMIDI_v2/Modelsim_avalon_sinDDS/sin_DDS.vhd {1 {vcom -work work -2002 -explicit -stats=none F:/Proyectos/DAvanzadoVHDL/codiseno/P_final/Lab2_TecMIDI_OK/hardware/TecMIDI_v2/Modelsim_avalon_sinDDS/sin_DDS.vhd
+Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package sin256rom_pkg
+-- Compiling entity sin_DDS
+-- Compiling architecture arquitecturasin_DDS of sin_DDS
+
+} {} {}} F:/Proyectos/DAvanzadoVHDL/codiseno/P_final/Lab2_TecMIDI_OK/hardware/TecMIDI_v2/Modelsim_avalon_sinDDS/UCau_out.vhd {1 {vcom -work work -2002 -explicit -stats=none F:/Proyectos/DAvanzadoVHDL/codiseno/P_final/Lab2_TecMIDI_OK/hardware/TecMIDI_v2/Modelsim_avalon_sinDDS/UCau_out.vhd
+Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity UCau_out
+-- Compiling architecture arquitectura_au_out of UCau_out
+
+} {} {}} F:/Proyectos/DAvanzadoVHDL/codiseno/P_final/Lab2_TecMIDI_OK/hardware/TecMIDI_v2/Modelsim_avalon_sinDDS/sin_DDS_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none F:/Proyectos/DAvanzadoVHDL/codiseno/P_final/Lab2_TecMIDI_OK/hardware/TecMIDI_v2/Modelsim_avalon_sinDDS/sin_DDS_tb.vhd
+Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity sin_DDS_tb
+-- Compiling architecture sin_DDS_tb_arch of sin_DDS_tb
+
+} {} {}} F:/Proyectos/DAvanzadoVHDL/codiseno/P_final/Lab2_TecMIDI_OK/hardware/TecMIDI_v2/Modelsim_avalon_sinDDS/au_out.vhd {1 {vcom -work work -2002 -explicit -stats=none F:/Proyectos/DAvanzadoVHDL/codiseno/P_final/Lab2_TecMIDI_OK/hardware/TecMIDI_v2/Modelsim_avalon_sinDDS/au_out.vhd
+Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity au_out
+-- Compiling architecture arquitecturaUPau_out of au_out
+
+} {} {}} F:/Proyectos/DAvanzadoVHDL/codiseno/P_final/Lab2_TecMIDI_OK/hardware/TecMIDI_v2/Modelsim_avalon_sinDDS/Sound_module.vhd {1 {vcom -work work -2002 -explicit -stats=none {F:\Proyectos\DAvanzadoVHDL\codiseno\P_final\Lab2_TecMIDI_OK\hardware\TecMIDI_v2\Modelsim_avalon_sinDDS\Sound_module.vhd}
+Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity SoundModule
+-- Compiling architecture architectureSoundModule of SoundModule
+
+} {} {}} F:/Proyectos/DAvanzadoVHDL/codiseno/P_final/Lab2_TecMIDI_OK/hardware/TecMIDI_v2/Modelsim_avalon_sinDDS/avalon_Sonido_v1.vhd {0 {vcom -work work -2002 -explicit -stats=none {F:\Proyectos\DAvanzadoVHDL\codiseno\P_final\Lab2_TecMIDI_OK\hardware\TecMIDI_v2\Modelsim_avalon_sinDDS\avalon_Sonido_v1.vhd}
+Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity avalon_SoundMIDI
+-- Compiling architecture behave of avalon_SoundMIDI
+** Error: F:\Proyectos\DAvanzadoVHDL\codiseno\P_final\Lab2_TecMIDI_OK\hardware\TecMIDI_v2\Modelsim_avalon_sinDDS\avalon_Sonido_v1.vhd(180): (vcom-1436) Actual expression (prefix expression) of formal "reset" is not globally static.
+
+** Error: F:\Proyectos\DAvanzadoVHDL\codiseno\P_final\Lab2_TecMIDI_OK\hardware\TecMIDI_v2\Modelsim_avalon_sinDDS\avalon_Sonido_v1.vhd(217): VHDL Compiler exiting
+
+} {11.0 12.0 13.0 14.0} {}} F:/Proyectos/DAvanzadoVHDL/codiseno/P_final/Lab2_TecMIDI_OK/hardware/TecMIDI_v2/Modelsim_avalon_sinDDS/au_setup.vhd {1 {vcom -work work -2002 -explicit -stats=none F:/Proyectos/DAvanzadoVHDL/codiseno/P_final/Lab2_TecMIDI_OK/hardware/TecMIDI_v2/Modelsim_avalon_sinDDS/au_setup.vhd
+Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity au_setup
+-- Compiling architecture a of au_setup
+
+} {} {}}

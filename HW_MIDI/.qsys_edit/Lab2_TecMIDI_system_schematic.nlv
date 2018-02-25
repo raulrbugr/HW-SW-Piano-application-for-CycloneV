@@ -1,0 +1,36 @@
+# # File gsaved with Nlview version 6.3.8  2013-12-19 bk=1.2992 VDI=34 GEI=35
+# 
+preplace inst Lab2_TecMIDI_system.codec_0 -pg 1 -lvl 3 -y 80
+preplace inst Lab2_TecMIDI_system.onchip_memory -pg 1 -lvl 2 -y 770
+preplace inst Lab2_TecMIDI_system.RxDecMIDI_0 -pg 1 -lvl 2 -y 330
+preplace inst Lab2_TecMIDI_system.LEDs -pg 1 -lvl 2 -y 930
+preplace inst Lab2_TecMIDI_system.nios2_processor.clock_bridge -pg 1
+preplace inst Lab2_TecMIDI_system.jtag_uart -pg 1 -lvl 2 -y 110
+preplace inst Lab2_TecMIDI_system.clk_0 -pg 1 -lvl 1 -y 510
+preplace inst Lab2_TecMIDI_system.sysid -pg 1 -lvl 2 -y 850
+preplace inst Lab2_TecMIDI_system.switches -pg 1 -lvl 2 -y 670
+preplace inst Lab2_TecMIDI_system.sdram_controller -pg 1 -lvl 2 -y 570
+preplace inst Lab2_TecMIDI_system.pll_0 -pg 1 -lvl 2 -y 450
+preplace inst Lab2_TecMIDI_system.nios2_processor.cpu -pg 1
+preplace inst Lab2_TecMIDI_system.nios2_processor -pg 1 -lvl 1 -y 230
+preplace inst Lab2_TecMIDI_system.sys_clk_timer -pg 1 -lvl 2 -y 230
+preplace inst Lab2_TecMIDI_system.nios2_processor.reset_bridge -pg 1
+preplace inst Lab2_TecMIDI_system -pg 1 -lvl 1 -y 40 -regy -20
+preplace netloc FAN_OUT<net_container>Lab2_TecMIDI_system</net_container>(MASTER)nios2_processor.irq,(SLAVE)sys_clk_timer.irq,(SLAVE)RxDecMIDI_0.interrupt_sender,(SLAVE)jtag_uart.irq) 1 1 1 590
+preplace netloc EXPORT<net_container>Lab2_TecMIDI_system</net_container>(SLAVE)sdram_controller.wire,(SLAVE)Lab2_TecMIDI_system.sdram) 1 0 2 NJ 640 NJ
+preplace netloc EXPORT<net_container>Lab2_TecMIDI_system</net_container>(SLAVE)clk_0.clk_in_reset,(SLAVE)Lab2_TecMIDI_system.reset) 1 0 1 NJ
+preplace netloc EXPORT<net_container>Lab2_TecMIDI_system</net_container>(SLAVE)Lab2_TecMIDI_system.switches,(SLAVE)switches.external_connection) 1 0 2 NJ 700 NJ
+preplace netloc EXPORT<net_container>Lab2_TecMIDI_system</net_container>(SLAVE)clk_0.clk_in,(SLAVE)Lab2_TecMIDI_system.clk) 1 0 1 NJ
+preplace netloc FAN_OUT<net_container>Lab2_TecMIDI_system</net_container>(SLAVE)onchip_memory.clk1,(SLAVE)LEDs.clk,(SLAVE)sys_clk_timer.clk,(SLAVE)codec_0.clock,(SLAVE)jtag_uart.clk,(SLAVE)RxDecMIDI_0.clock,(MASTER)pll_0.outclk0,(SLAVE)switches.clk,(SLAVE)sysid.clk) 1 1 2 610 540 910
+preplace netloc EXPORT<net_container>Lab2_TecMIDI_system</net_container>(SLAVE)Lab2_TecMIDI_system.leds,(SLAVE)LEDs.external_connection) 1 0 2 NJ 960 NJ
+preplace netloc EXPORT<net_container>Lab2_TecMIDI_system</net_container>(SLAVE)codec_0.conduit_end_2,(SLAVE)Lab2_TecMIDI_system.aud_dacdat) 1 0 3 NJ 80 NJ 70 NJ
+preplace netloc INTERCONNECT<net_container>Lab2_TecMIDI_system</net_container>(SLAVE)nios2_processor.debug_mem_slave,(SLAVE)onchip_memory.s1,(SLAVE)jtag_uart.avalon_jtag_slave,(SLAVE)LEDs.s1,(SLAVE)sys_clk_timer.s1,(SLAVE)codec_0.avalon_slave_0,(SLAVE)switches.s1,(SLAVE)RxDecMIDI_0.avalon_slave_0,(SLAVE)sysid.control_slave,(MASTER)nios2_processor.instruction_master,(MASTER)nios2_processor.data_master,(SLAVE)sdram_controller.s1) 1 0 3 130 400 530 100 870
+preplace netloc EXPORT<net_container>Lab2_TecMIDI_system</net_container>(MASTER)pll_0.outclk2,(MASTER)Lab2_TecMIDI_system.pll_0_sdram) 1 2 2 NJ 500 NJ
+preplace netloc INTERCONNECT<net_container>Lab2_TecMIDI_system</net_container>(SLAVE)sdram_controller.reset,(SLAVE)codec_0.reset_sink,(SLAVE)nios2_processor.reset,(MASTER)nios2_processor.debug_reset_request,(SLAVE)sys_clk_timer.reset,(SLAVE)onchip_memory.reset1,(SLAVE)switches.reset,(SLAVE)LEDs.reset,(SLAVE)pll_0.reset,(MASTER)clk_0.clk_reset,(SLAVE)jtag_uart.reset,(SLAVE)sysid.reset,(SLAVE)RxDecMIDI_0.reset_sink) 1 0 3 150 420 570 220 930
+preplace netloc POINT_TO_POINT<net_container>Lab2_TecMIDI_system</net_container>(SLAVE)pll_0.refclk,(MASTER)clk_0.clk) 1 1 1 550
+preplace netloc EXPORT<net_container>Lab2_TecMIDI_system</net_container>(SLAVE)codec_0.conduit_end,(SLAVE)Lab2_TecMIDI_system.aud_daclrck) 1 0 3 NJ 40 NJ 30 NJ
+preplace netloc EXPORT<net_container>Lab2_TecMIDI_system</net_container>(SLAVE)RxDecMIDI_0.conduit_end,(SLAVE)Lab2_TecMIDI_system.rxdecmidi) 1 0 2 NJ 380 NJ
+preplace netloc FAN_OUT<net_container>Lab2_TecMIDI_system</net_container>(SLAVE)sdram_controller.clk,(MASTER)pll_0.outclk1,(SLAVE)nios2_processor.clk) 1 0 3 110 500 510 560 870
+preplace netloc EXPORT<net_container>Lab2_TecMIDI_system</net_container>(SLAVE)Lab2_TecMIDI_system.aud_bclk,(SLAVE)codec_0.conduit_end_1) 1 0 3 NJ 60 NJ 50 NJ
+levelinfo -pg 1 0 80 1180
+levelinfo -hier Lab2_TecMIDI_system 90 270 700 960 1080
